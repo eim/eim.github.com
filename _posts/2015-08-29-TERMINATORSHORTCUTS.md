@@ -14,16 +14,16 @@ author: Eugene Mukhanov
 
 ### Home page: [[http://gnometerminator.blogspot.com/p/introduction.html]]
 
-Ctrl-Shift-E:     split the view vertically.
+* Ctrl-Shift-E:     split the view vertically.
 
-Ctrl-Shift-O:     split the view horizontally.
+* Ctrl-Shift-O:     split the view horizontally.
 
-Ctrl-Shift-P:     focus be active on the previous view.
+* Ctrl-Shift-P:     focus be active on the previous view.
 
-Ctrl-Shift-N:     focus be active on the next view.
+* Ctrl-Shift-N:     focus be active on the next view.
 
-Ctrl-Shift-W:     close the view where the focus is on.
+* Ctrl-Shift-X:     focus active window and enlarge it
 
-Ctrl-Shift-Q:     exit terminator.
+* Ctrl-Shift-W:     close the view where the focus is on.
 
-Ctrl-Shift-X:     focus active window and enlarge it
+* Ctrl-Shift-Q:     exit terminator.
