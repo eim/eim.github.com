@@ -1,0 +1,12 @@
+git clone https://github.com/plusjade/jekyll-bootstrap.git eim.github.com
+git clone git@github.com:mattgraham/midnight.git eim.github.com
+
+cd eim.github.com
+git remote set-url origin git@github.com:eim/eim.github.com.git
+git push origin master
+
+rake theme:install git="https://github.com/mattgraham/midnight.git"
+rake theme:install name="midnight"
+
+
+mkdir _includes _layouts _posts _site
