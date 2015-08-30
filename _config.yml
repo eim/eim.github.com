@@ -15,6 +15,10 @@ author :
   email : eim@protonmail.ch
   github : eim
 
+site.title : DevNotes
+site :
+  title : DevNotes
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -85,11 +89,11 @@ JB :
       site_id : 123
     intensedebate :
       account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
     duoshuo :
       short_name : jekyllbootstrap
 
@@ -129,3 +133,10 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+   coderay:
+   coderay_wrap: div
+   coderay_line_numbers: inline
+   coderay_line_numbers_start: 1
+   coderay_tab_width: 4
+   coderay_bold_every: 10
+   coderay_css: dark
